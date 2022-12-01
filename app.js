@@ -7,7 +7,7 @@ alert(wlcmMessage); //alert is use to display the content
 var btnTranslate = document.querySelector("#btn-translate"); //This tells the browser to fetch btn-translate id...
 btnTranslate.addEventListener("click", function clickEventHandler() {
   // console.log("Clicked!");
-  outputText.innerText = "zyzyzyyzyzyz" + inputText.value;
+  outputText.innerText = "zyzyzyyzyzyz " + inputText.value;
 });
 
 // function clickEventHandler(){....This way we can extra the function
@@ -22,4 +22,4 @@ inputText.addEventListener("click", function clickEventHandler() {
 
 var outputText = document.querySelector("#output");
 // outputText.innerText = "Shruti ,The Software Engineer!";
-// console.log(outputText);
+// console.log(outputText);shh
