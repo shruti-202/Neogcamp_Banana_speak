@@ -1,10 +1,13 @@
 textarea {
-  width: 80%;
+  width: 50%;
   height: 10vh;
   display: block;
   margin: 1rem;
   padding: 1rem;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 #output {
   width: 60%;
   height: 25vh;
@@ -12,7 +15,29 @@ textarea {
   border: solid 1px black;
   margin: 1rem;
   padding: 1rem;
+  margin-left: auto;
+  margin-right: auto;
 }
-h1 {
+.navigation {
   background-color: blueviolet;
+  color: white;
+  border: 1.5rem;
+  padding: 3rem;
+  text-align: center;
+  font-size: larger;
+}
+.minions {
+  text-align: center;
+  background-color: blueviolet;
+  color: white;
+  border: 1.5rem;
+  padding: 1.5rem;
+  font-size: large;
+}
+#btn-translate {
+  text-align: center;
+}
+.outputDisplay {
+  text-align: center;
+  font-size: larger;
 }
