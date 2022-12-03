@@ -1,8 +1,8 @@
-console.log("Hi Software Developer");
+// console.log("Hi Software Developer");
 
-var userInput = prompt("What's your Name!"); //prompt is use to take input
-var wlcmMessage = userInput + "! Welcome to Neogcamp ! ";
-alert(wlcmMessage); //alert is use to display the content
+// var userInput = prompt("What's your Name!"); //prompt is use to take input
+// var wlcmMessage = userInput + "! Welcome to Neogcamp ! ";
+// alert(wlcmMessage); //alert is use to display the content
 
 var btnTranslate = document.querySelector("#btn-translate"); //This tells the browser to fetch btn-translate id...
 btnTranslate.addEventListener("click", function clickEventHandler() {
@@ -31,7 +31,7 @@ inputText.addEventListener("click", function clickEventHandler() {
 
 var outputText = document.querySelector("#output");
 // outputText.innerText = "Shruti ,The Software Engineer!";
-// console.log(outputText);shh
+// console.log(outputText);
 
 // var serverUrl = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json";
 var serverUrl = "https://api.funtranslations.com/translate/minion.json"; //Minion server

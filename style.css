@@ -1,5 +1,29 @@
+header {
+  /* position: relative; */
+  width: 100%;
+  left: 0px;
+  right: 0px;
+  /* overflow: hidden; */
+  position: fixed;
+  top: 0;
+  margin-top: -10px;
+  width: 100%;
+}
+.navigation {
+  background-color: blueviolet;
+  color: white;
+  border: 1.5rem;
+  padding: 2rem;
+  text-align: center;
+  font-size: larger;
+  margin-top: 0px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+}
+
 textarea {
-  width: 50%;
+  width: 60%;
   height: 10vh;
   display: block;
   margin: 1rem;
@@ -10,34 +34,52 @@ textarea {
 
 #output {
   width: 60%;
-  height: 25vh;
+  height: 8vh;
   display: block;
   border: solid 1px black;
   margin: 1rem;
   padding: 1rem;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
 }
-.navigation {
+#btn-translate {
+  padding: 1rem;
+  display: block;
+  margin-left: +252px;
+  width: 200px;
   background-color: blueviolet;
   color: white;
-  border: 1.5rem;
-  padding: 3rem;
+  border-color: blueviolet;
+  text-align: center;
+}
+.outputDisplay {
   text-align: center;
   font-size: larger;
+  margin-left: auto;
+  margin-right: auto;
+  column-gap: 20px;
+  display: flex;
+  justify-content: space-between;
 }
 .minions {
   text-align: center;
   background-color: blueviolet;
   color: white;
   border: 1.5rem;
-  padding: 1.5rem;
+  padding: 2rem;
   font-size: large;
+  position: fixed;
+  height: 19%;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-#btn-translate {
+
+.footer-minions {
   text-align: center;
-}
-.outputDisplay {
-  text-align: center;
-  font-size: larger;
 }
