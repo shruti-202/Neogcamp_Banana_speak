@@ -1,4 +1,4 @@
-header {
+main {
   /* position: relative; */
   width: 100%;
   left: 0px;
@@ -9,7 +9,7 @@ header {
   margin-top: -10px;
   width: 100%;
 }
-.navigation {
+h1 {
   background-color: blueviolet;
   color: white;
   border: 1.5rem;
@@ -52,6 +52,7 @@ textarea {
   color: white;
   border-color: blueviolet;
   text-align: center;
+  
 }
 .outputDisplay {
   text-align: center;
